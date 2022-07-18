@@ -24,7 +24,7 @@ public class UsermetadataApplication {
 		return new WebMvcConfigurer() {
 			@Override
 			public void addCorsMappings(CorsRegistry registry) {
-				registry.addMapping("/**").allowedOrigins("https://vik-amazon-clone-frontend.herokuapp.com");
+				registry.addMapping("/**").allowedOrigins("https://vik-amazon-clone-frontend.herokuapp.com","http://localhost:3000");
 			}
 		};
 	}
